@@ -26,7 +26,7 @@
   },
   "scripts": {
     "build": "lerna run build --stream",
-    "build:quick": "yarn build --scope=next-dark-mode",
+    "build:quick": "yarn build --scope=ssr-dark-mode",
     "clean": "lerna run clean && lerna clean --yes && rimraf node_modules",
     "lint": "eslint --cache --cache-location .eslint/cache --fix",
     "lint:all": "yarn lint 'packages/*/**/*.{ts,tsx}' 'packages/*/*.js'",
@@ -34,7 +34,7 @@
     "publish:release": "lerna publish --tag-version-prefix=\"\" --force-publish=* --no-push --no-git-tag-version",
     "start": "yarn build:quick && lerna run start --parallel"
   },
-  "version": "2.2.3",
+  "version": "1.0.0",
   "workspaces": [
     "packages/*"
   ]

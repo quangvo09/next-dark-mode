@@ -1,0 +1,1 @@
+This project forked from [next-dark-mode](https://www.npmjs.com/package/next-dark-mode)
